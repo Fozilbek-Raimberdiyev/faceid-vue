@@ -67,6 +67,6 @@ const getImageSource = computed(() => {
   // return import.meta.env.DEV
   //   ? `/temp-accounts/${props.user.picture}`
   //   : `/react-face-auth/temp-accounts/${props.user.picture}`
-  return `/temp-accounts/${props.user.picture}`;
+  return `${props.user.picture}`;
 });
 </script>
